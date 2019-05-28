@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">movie ratings</string>
+    <string name="search_hint">type in any movie, series, etc</string>
+</resources>
