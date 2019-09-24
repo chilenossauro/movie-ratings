@@ -9,7 +9,7 @@ fun <T> Observable<T>.bind(uiFunc: Function<Observable<T>, Disposable>?): Dispos
     return try {
         uiFunc?.apply(this)
     } catch (e: Exception) {
-//        LogUtil.e(e, e.message)
+//        Log Error
         null
     }
 }
