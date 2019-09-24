@@ -16,7 +16,6 @@ class SearchActivity : AppCompatActivity() {
         AndroidInjection.inject(this)
     }
 
-
     fun networkTest() {
 
     }
